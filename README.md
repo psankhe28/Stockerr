@@ -14,7 +14,7 @@
 <table>
   <tr>
     <td>
-    <strong>Stocker</strong> is a web application built in ReactJS to help new traders enter the trading world by allowing them to trade stocks in real time using the virtual currency provided on signup. StalkStock shows stock with real-time data and also financial news and various important terms related to them.
+    <strong>Stocker</strong> is a web application built in ReactJS to help new traders enter the trading world by allowing them to trade stocks in real time using the virtual currency provided on signup. Stocker shows stock with real-time data and also financial news and various important terms related to them.
   </td>
  </tr>
 </table>
