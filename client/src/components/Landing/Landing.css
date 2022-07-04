@@ -1,0 +1,159 @@
+.header {
+    width: 100%;
+    height: 15%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+}
+@media only screen and (max-width: 530px) {
+    .header {
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .header {
+        padding: 5px;
+    }
+}
+.header a {
+    z-index: 2;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    z-index: 10;
+}
+.header__logo svg {
+    width: 10%;
+    fill: white;
+    margin-right: 10px;
+    min-width: 20px;
+}
+.header__logo h6 {
+    margin-left: 20px;
+}
+@media only screen and (max-width: 450px) {
+    .header__logo h6 {
+        margin-left: 5px;
+    }
+}
+.header__line {
+    border-left: 1px solid white;
+    height: 50%;
+    width: 1px;
+    margin-left: 20px;
+    min-height: 30px;
+}
+@media only screen and (max-width: 450px) {
+    .header__line {
+        margin-left: 5px;
+        min-height: 20px;
+    }
+}
+.header__menu {
+    display: flex;
+    z-index: 10;
+}
+@media only screen and (max-width: 450px) {
+    .header__menu {
+        padding: 0;
+    }
+}
+.header__menu li {
+    margin-left: 20px;
+}
+@media only screen and (max-width: 450px) {
+    .header__menu li {
+        margin-left: 5px;
+    }
+}
+.header__button-register {
+    padding: 10px 25px;
+    background: #30475e;
+    color: white;
+    font-weight: bold;
+    transition: all .5s;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+.header__button-register:hover {
+    box-shadow: 3px 5px #ddd;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;
+}
+.header__button-login {
+    padding: 10px 25px;
+    background-color: #30475e;
+    color: white;
+    font-weight: bold;
+    transition: all .5s;
+    border-radius: 5px;
+}
+.header__button-login:hover {
+    background: #222831;
+    box-shadow: 3px 5px #ddd;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 530px) {
+    .header__button-login, .header__button-register {
+        padding: 5px 10px;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Rubik:wght@500&display=swap');
+.landing-page {
+    width: 100%;
+    height: 100%;
+    color: white;
+    min-height: 100vh !important;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+}
+.landing-page__background {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh !important;
+    top: 0;
+    z-index: 0;
+    background-color: #222831;
+    overflow: hidden;
+}
+.landing-page__background svg {
+    margin-right: 100px;
+    height: 100%;
+    margin-right: 100%;
+}
+.landing-page__heading {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    padding: 10%;
+    top: 0px;
+    z-index: 10;
+}
+.landing-page__heading h1 {
+    z-index: 10;
+    width: 45%;
+    white-space: pre-wrap;
+}
+.landing-page__heading img {
+    margin-top: -12%;
+    margin-right: 70px;
+    height: 20%;
+    width: 30%;
+    right: 20px;
+}
+
+/* .landing-page__footer {
+    flex-shrink: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 2%;
+} */
