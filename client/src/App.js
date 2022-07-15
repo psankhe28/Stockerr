@@ -26,7 +26,7 @@ function App() {
       };
 
       const tokenIsValid = await axios.post(
-        "http://localhost:5000/api/auth/validate",
+        "https://stockker-app.herokuapp.com/api/auth/validate",
         null,
         {
           headers,
@@ -34,7 +34,7 @@ function App() {
       );
 
       if (tokenIsValid.data) {
-        const userRes = await axios.get("http://localhost:5000/api/auth/user", {
+        const userRes = await axios.get("https://stockker-app.herokuapp.com/api/auth/user", {
           headers,
         });
         setUserData({

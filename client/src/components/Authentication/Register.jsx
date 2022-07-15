@@ -49,7 +49,7 @@ const Register = () => {
     e.preventDefault();
     if (!usernameError && !passwordError) {
       const newUser = { username, password };
-      const registerRes = await axios.post('http://localhost:5000/api/auth/register', newUser);
+      const registerRes = await axios.post('https://stockker-app.herokuapp.com/api/auth/register', newUser);
 
       if (registerRes.data.status === "fail") {
         if (!registerRes.data.type) {

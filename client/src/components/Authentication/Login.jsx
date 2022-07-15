@@ -77,7 +77,7 @@ const Login = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     const newUser = { username, password };
-    const url = "http://localhost:5000/api/auth/login";
+    const url = "https://stockker-app.herokuapp.com/api/auth/login";
     const loginRes = await axios.post(url, newUser);
 
     if (loginRes.data.status === "fail") {

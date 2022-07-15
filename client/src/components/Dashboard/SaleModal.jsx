@@ -69,7 +69,7 @@ const SaleModalContent = ({ setSaleOpen, stock }) => {
       price: Number(stock.currentPrice),
     };
 
-    const url = `http://localhost:5000/api/stock`;
+    const url = `https://stockker-app.herokuapp.com/api/stock`;
     const response = await Axios.patch(url, data, {
       headers,
     });
