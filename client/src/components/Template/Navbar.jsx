@@ -4,7 +4,8 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import SearchIcon from "@material-ui/icons/Search";
-import InfoIcon from "@material-ui/icons/Info";
+import NewspaperIcon from '@mui/icons-material/Newspaper';
+
 
 const Navbar = ({ currentPage, setCurrentPage }) => {
   const onNewsButtonClick = (e) => {
@@ -50,7 +51,7 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
         onClick={onNewsButtonClick}
       >
         <ListItemIcon>
-          <InfoIcon style={{color:'white'}}/>
+          <NewspaperIcon style={{color:'white'}}/>
         </ListItemIcon>
         <ListItemText primary="Market News" />
       </ListItem>
