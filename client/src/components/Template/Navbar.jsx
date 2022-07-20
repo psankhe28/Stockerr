@@ -4,7 +4,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import SearchIcon from "@material-ui/icons/Search";
-import NewspaperIcon from '@mui/icons-material/Newspaper';
+import NewspaperIcon from '@material-ui/icons/Newspaper';
 
 
 const Navbar = ({ currentPage, setCurrentPage }) => {
