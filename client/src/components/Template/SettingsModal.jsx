@@ -57,7 +57,7 @@ const SettingsModalContent = ({ setSettingsOpen }) => {
       "x-auth-token": userData.token,
     };
 
-    const url = `http://localhost:5000/api/stock/${userData.user.id}`;
+    const url = `https://stockker-app.herokuapp.com/api/stock/${userData.user.id}`;
     const response = await Axios.delete(url, {
       headers,
     });

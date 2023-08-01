@@ -103,7 +103,7 @@ const News = () => {
 
   useEffect(() => {
     const getCards = async () => {
-      const url = "http://localhost:5000/api/news";
+      const url = "https://stockker-app.herokuapp.com/api/news";
       const response = await Axios.get(url);
       // console.log(response);
       if (response.data.data.length > 0 && response.data.status === "success") {

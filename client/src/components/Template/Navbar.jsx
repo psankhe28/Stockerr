@@ -6,6 +6,7 @@ import DashboardIcon from "@material-ui/icons/Dashboard";
 import SearchIcon from "@material-ui/icons/Search";
 import InfoIcon from "@material-ui/icons/Info";
 
+
 const Navbar = ({ currentPage, setCurrentPage }) => {
   const onNewsButtonClick = (e) => {
     e.preventDefault();

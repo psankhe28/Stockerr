@@ -93,7 +93,7 @@ const StockCard = ({ setPurchasedStocks, purchasedStocks, currentStock }) => {
   useEffect(() => {
     const getInfo = async () => {
       setLoading(true);
-      const url = `http://localhost:5000/api/data/prices/${currentStock.ticker}`;
+      const url = `https://stockker-app.herokuapp.com/api/data/prices/${currentStock.ticker}`;
       const response = await Axios.get(url);
       if (response.data.status === "success") {
         setStockInfo(response.data.data);
@@ -105,7 +105,7 @@ const StockCard = ({ setPurchasedStocks, purchasedStocks, currentStock }) => {
 
     const getData = async () => {
       setLoading(true);
-      const url = `http://localhost:5000/api/data/prices/${currentStock.ticker}/full`;
+      const url = `https://stockker-app.herokuapp.com/api/data/prices/${currentStock.ticker}/full`;
       const response = await Axios.get(url);
       if (response.data.status === "success") {
         setSixMonthAverages(response.data.sixMonthAverages);

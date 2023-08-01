@@ -10,7 +10,7 @@ const Chart = () => {
   useEffect(() => {
     const getData = async () => {
       setLoading(true);
-      const url = `http://localhost:5000/api/data/random`;
+      const url = `https://stockker-app.herokuapp.com/api/data/random`;
       const response = await Axios.get(url);
       if (response.data.status === "success") {
         setChartData(response.data);

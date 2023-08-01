@@ -87,7 +87,7 @@ const PageTemplate = () => {
   useEffect(() => {
     const getPurchasedStocks = async () => {
       setLoading(true);
-      const url = `http://localhost:5000/api/stock/${userData.user.id}`;
+      const url = `https://stockker-app.herokuapp.com/api/stock/${userData.user.id}`;
       const headers = {
         "x-auth-token": userData.token,
       };
