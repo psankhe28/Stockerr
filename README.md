@@ -37,3 +37,14 @@
 - [Pratiksha Sankhe](https://github.com/psankhe28)
 - [Apurv Sonawane](https://github.com/Apurv428)
 
+## Screenshots
+- Some charts
+
+![1](https://github.com/psankhe28/Stockerr/assets/84843461/37bc4b04-0c11-4ac0-a1c0-4f1b4dc6b663)
+
+![2](https://github.com/psankhe28/Stockerr/assets/84843461/9ce9ec2d-0435-4ceb-92cd-951777198e09)
+
+![3](https://github.com/psankhe28/Stockerr/assets/84843461/33e5b015-ede4-4923-9c3d-38e9a7b0e2b1)
+
+
+
